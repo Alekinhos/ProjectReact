@@ -5,11 +5,11 @@ function List(){
         <>   
             <h1>Lista de Produtos</h1>
             <ul>
-                <Item name="Arroz"/>
-                <Item name="Feijão"/>
-                <Item name="Macarrão"/>
-                <Item name="Carne"/>
-                <Item name="Frango"/>
+                <Item alimento="Arroz" tipo="Integral"/>
+                <Item alimento="Feijão" tipo="Preto"/>
+                <Item alimento="Macarrão" tipo="Integral"/>
+                <Item alimento="Farinha" tipo="Trigo"/>
+                
             </ul>
         </>
     )
