@@ -18,4 +18,10 @@ Item.prototype = {
     tipo: PropTypes.string.isRequired
 }
 
+Item.DefaultProps = {
+    alimento: 'Alimento não informado',
+    tipo: 'Tipo não informado'
+}
+
+
 export default Item
